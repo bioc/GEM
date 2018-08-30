@@ -32,8 +32,9 @@ If you are using Rpackage GEM in a publication, please cite [1]. Rpackage GEM ad
 
 ```{r, eval=FALSE}
 ## try http:// if https:// URLs are not supported
-source("https://bioconductor.org/biocLite.R")
-biocLite("GEM")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("GEM")
 ```
 
 #### Loading

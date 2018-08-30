@@ -10,8 +10,9 @@ Currently, the GEM package has been submitted to Bioconductor and under review. 
 
 ```R
 ## try http:// if https:// URLs are not supported
-source("https://bioconductor.org/biocLite.R")
-biocLite("GEM")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("GEM")
 ```
 
 ### Install from github

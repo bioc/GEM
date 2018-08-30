@@ -2,7 +2,7 @@ Package: GEM
 Type: Package
 Title: GEM: fast association study for the interplay of Gene,
         Environment and Methylation
-Version: 1.7.0
+Version: 1.7.1
 Date: 2015-12-05
 Author: Hong Pan, Joanna D Holbrook, Neerja Karnani, Chee-Keong Kwoh
 Maintainer: Hong Pan <pan_hong@sics.a-star.edu.sg>
